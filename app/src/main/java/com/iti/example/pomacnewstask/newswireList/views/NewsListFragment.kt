@@ -2,6 +2,7 @@ package com.iti.example.pomacnewstask.newswireList.views
 
 import android.content.res.Configuration
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -47,10 +48,12 @@ class NewsListFragment : Fragment() {
             it?.let {
                 Snackbar.make(
                     requireActivity().findViewById(android.R.id.content),
-                    it,
+                    "there's no connection ",
                     Snackbar.LENGTH_LONG
                 ).show()
+                Log.e("NewsListFragment", it )
             }
+
         }
         val navController = findNavController()
         newsListViewModel.onNavigateToNewsDetailsData.observe(viewLifecycleOwner) {

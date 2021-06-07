@@ -13,4 +13,5 @@
     <string name="multimedia_img_desc">this is the multimedia image</string>
     <string name="view_on_web">View on web</string>
     <string name="multimedia_title">Multimedia</string>
+    <string name="connection_error_image_desc">there\'s no connection</string>
 </resources>

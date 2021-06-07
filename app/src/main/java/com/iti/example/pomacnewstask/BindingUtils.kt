@@ -74,3 +74,12 @@ fun View.setVisibilityAgainstData(news: News?) {
     }
 
 }
+@BindingAdapter("rvVisibilityAgainstLoading")
+fun RecyclerView.setVisibilityAgainstLoading(loadingStatus:Int?){
+    loadingStatus?.let {
+        visibility = when(it){
+            View.VISIBLE->View.GONE
+            else->View.VISIBLE
+        }
+    }
+}
