@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PomacNewsTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news_title">All News</string>
+    <string name="details_title">Details</string>
+    <string name="title_placeholder">Clash in peru and Brazil</string>
+    <string name="abstract_placeholder">The new jobs report was decent, but employers are still struggling to fill open positions.</string>
+    <string name="news_image_desc">this is the news image</string>
+    <string name="publisher_placeholder">John Marc</string>
+    <string name="date_placeholder">22-5-2021</string>
+    <string name="source_placeholder">New York Times</string>
+    <string name="multimedia_img_desc">this is the multimedia image</string>
+    <string name="view_on_web">View on web</string>
+    <string name="multimedia_title">Multimedia</string>
+</resources>
